@@ -28,7 +28,7 @@ app.use(
     }),
     cookie: {
       httpOnly: true, // 开启后前端无法通过 JS 操作
-      maxAge: 1000 * 60 * 60 * 24 * 7 // 这一条 是控制 sessionID 的过期时间的！！！
+      maxAge: 1000 * 60 * 60 * 24 // 这一条 是控制 sessionID 的过期时间的！！！
     }
   })
 );
